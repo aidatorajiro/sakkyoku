@@ -14,5 +14,6 @@ linear -> relu -> linear -> relu -> linear -> relu -> softmax
 Each note will be serialized as 2 * 128 tensor
 
 Input: last 16 notes
+
 Output: probability distribution of note melody and note length
 
